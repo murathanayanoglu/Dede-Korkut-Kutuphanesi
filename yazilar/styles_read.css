@@ -37,6 +37,7 @@ body {
     font-size: 30pt;
 }
 p {
+    text-align: center;
     padding: 10px;
     font-size: medium;
     text-align: start;
@@ -46,7 +47,7 @@ p {
 }
 
 h3 {
-    text-align: start;
+    text-align: center;
     color:rgb(205, 46, 25);
     text-decoration: underline;
 }
