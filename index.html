@@ -10,9 +10,9 @@
 <body>
     <div name="yorumlar"class="popup-container">
         <div style="width: 70%;" class="popup-box" style="height: 50%;">
-            <button onclick="popup_close()" style="top: 35%;" class="close-btn">GERİ DÖN</button>
+            <button onclick="popup_close()" style="position: absolute;top: 15%;width: 70%;" class="close-btn">GERİ DÖN</button>
             <h1 class="label">İNCELEMELER</h1>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1700 657">
+            <svg  class="books-review" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1700 657">
                 <image alt="incelemelerin seçildiği kitaplar" width="1700" height="657" xlink:href="inceleme-kitaplar.png"></image> 
                 <a xlink:href="yazilar/incelemeler/ozankavrami.html">
                   <rect x="101" y="0" fill="#fff" opacity="0" width="587" height="151"></rect>
@@ -34,7 +34,7 @@
     </div>
     <div name="hikayeler" class="popup-container">
         <div class="popup-box">
-            <button style="margin-top: 2%;" onclick="popup_close()" class="close-btn">GERİ DÖN</button>
+            <button style="position: absolute;top: 15%;width: 80%;" onclick="popup_close()" class="close-btn">GERİ DÖN</button>
             <div class="label-container">
                 <h1 style="margin-top: 5%;" class="label">HİKAYELER</h1>
                 <h1 class="label" id="story-name">"Dirse Han Oğlu Boğaç Han Destanı"</h1> 
@@ -77,18 +77,6 @@
             <div class="shelf">
                 <button class="shelf-button" onclick="show_opinions()">
                     <div class="label">İNCELEMELER</div>
-                    <img src="books.png" alt="incelemelere götüren görsel ">
-                </button>
-            </div>
-            <div class="shelf">
-                <button class="shelf-button" onclick="show_opinions()">
-                    <div class="label">ANKETİMİZ</div>
-                    <img src="books.png" alt="incelemelere götüren görsel ">
-                </button>
-            </div>
-            <div class="shelf">
-                <button class="shelf-button" onclick="show_opinions()">
-                    <div class="label">BİZE ULAŞIN</div>
                     <img src="books.png" alt="incelemelere götüren görsel ">
                 </button>
             </div>

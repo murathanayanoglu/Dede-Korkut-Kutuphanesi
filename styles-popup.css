@@ -32,9 +32,8 @@
 }
 
 .books-review {
-    margin-bottom: 5%;
-    max-width: 100%;
-    max-height: 100%;
+    position: relative;
+    bottom: 0%;
 }
 
 .close-btn {
@@ -86,6 +85,7 @@
 
 .character {
     height: 70%;
+    max-width: 100%;
     margin-bottom: 0%;
 }
 
