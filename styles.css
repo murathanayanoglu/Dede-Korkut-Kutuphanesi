@@ -15,7 +15,8 @@ body {
 .shelf {
     min-height: 10vh;
     height: 30vh;
-    background-image: url(books.png);
+    background-color: rgb(108, 66, 40);
+    background-image: url(gorseller/books.png);
     background-size: cover;
     border: 15px solid  rgb(179, 109, 56);
     outline: 4px solid black;

@@ -48,9 +48,9 @@ function goLeft() {
 function chooseImgToShow() {
     var characterImage = document.getElementById("character");
     if (currentPhotoIndex === 0)
-        characterImage.src = "karakterler/karakter" + String(currentPhotoIndex) + ".PNG"
+        characterImage.src = "gorseller/karakterler/karakter" + String(currentPhotoIndex) + ".PNG"
     else
-        characterImage.src = "karakterler/karakter" + String(currentPhotoIndex) + ".PNG"
+        characterImage.src = "gorseller/karakterler/karakter" + String(currentPhotoIndex) + ".PNG"
     characterImage.alt = String(currentPhotoIndex) + ". karakter"
 }
 
